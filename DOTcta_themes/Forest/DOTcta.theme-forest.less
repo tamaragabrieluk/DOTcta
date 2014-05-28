@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/*
+ * DOTcta - FOREST THEME
+ * http://libs.doodleboxmedia.co.uk/dot/cta
+ * Copyright 2014 Doodlebox Media Ltd
+ * http://www.doodleboxmedia.co.uk
+ * Licensed under MIT - https://libs.doodleboxmedia.co.uk/dot/cta/mit-license.php
+ * 
+ * This will override the default theme.
+ *				
+*/
+
+
+@primary:				#16706A;
+@primary-light:			#1A827B;
+@f-primary:				'#16706A';
+@f-primary-light:		'#1A827B';
+@primary-font:			#fff;
+
+@secondary:				#DC6E44;
+@secondary-light:		#F0784A;
+@f-secondary:			'#DC6E44';
+@f-secondary-light:		'#F0784A';
+@secondary-font:		#fff;
+
+@hover:					#400F0D;
+@hover-font:			#fff;
+
+
+
+/* -------------------------- COLOUR USAGE ------------------------------ */
+
+.primary-bg {
+	background: @primary;	
+}
+.primary-font {
+	color: @primary;
+}
+
+.secondary-bg {
+	background: @secondary;	
+}
+.secondary-font {
+	color: @secondary;
+}
+
+.hover-bg {
+	background: @hover;	
+}
+.hover-font {
+	color: @hover;
+}
+
+
+/* ----------------------------- PRIMARY -------------------------- */
+
+.cta-flat,
+.cta-flat.cta-primary {
+	background: @primary;
+	color: @primary-font
+}
+
+.cta-glossy,
+.cta-glossy.cta-primary {
+	color: @primary-font;
+	background: @primary;  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,@primary-light), color-stop(55%,@primary));  
+    background: -webkit-linear-gradient(top,  @primary-light 50%,@primary 55%);  
+    background: -moz-linear-gradient(top,  @primary-light 50%,@primary 55%);  
+    background: -o-linear-gradient(top,  @primary-light 50%,@primary 55%);  
+    background: -ms-linear-gradient(top,  @primary-light 50%,@primary 55%);  
+    background: linear-gradient(to bottom,  @primary-light 50%,@primary 55%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@f-primary-light, endColorstr=@f-primary,GradientType=1 );
+}
+
+.cta-gradient, 
+.cta-gradient.cta-primary {
+	color: @primary-font;
+	background: @primary;  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,@primary-light), color-stop(100%,@primary));  
+    background: -webkit-linear-gradient(top,  @primary-light 50%,@primary 100%);  
+    background: -moz-linear-gradient(top,  @primary-light 50%, @primary 100%);  
+    background: -o-linear-gradient(top,  @primary-light 50%,@primary 100%);  
+    background: -ms-linear-gradient(top,  @primary-light 50%,@primary 100%);  
+    background: linear-gradient(to bottom,  @primary-light 50%,@primary 100%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@f-primary-light, endColorstr=@f-primary,GradientType=1 );
+}
+
+.cta-hollow, .cta-hollow.cta-primary,
+.cta-hollow-thick, .cta-hollow-thick.cta-primary,
+.cta-hollow-thicker,.cta-hollow-thicker.cta-primary {
+	background: none;
+	color: @primary;
+	border-color: @primary;
+}
+
+
+
+/* ----------------------------- SECONDARY -------------------------- */
+
+.cta-flat.cta-secondary {
+	background: @secondary;
+	color: @secondary-font
+}
+
+.cta-glossy.cta-secondary {
+	color: @secondary-font;
+	background: @secondary;  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,@secondary-light), color-stop(55%,@secondary));  
+    background: -webkit-linear-gradient(top,  @secondary-light 50%,@secondary 55%);  
+    background: -moz-linear-gradient(top,  @secondary-light 50%,@secondary 55%);  
+    background: -o-linear-gradient(top,  @secondary-light 50%,@secondary 55%);  
+    background: -ms-linear-gradient(top,  @secondary-light 50%,@secondary 55%);  
+    background: linear-gradient(to bottom,  @secondary-light 50%,@secondary 55%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@f-secondary-light, endColorstr=@f-secondary,GradientType=1 );
+}
+
+.cta-gradient.cta-secondary {
+	color: @secondary-font;
+	background: @secondary;  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,@secondary-light), color-stop(100%,@secondary));  
+    background: -webkit-linear-gradient(top,  @secondary-light 50%,@secondary 100%);  
+    background: -moz-linear-gradient(top,  @secondary-light 50%, @secondary 100%);  
+    background: -o-linear-gradient(top,  @secondary-light 50%,@secondary 100%);  
+    background: -ms-linear-gradient(top,  @secondary-light 50%,@secondary 100%);  
+    background: linear-gradient(to bottom,  @secondary-light 50%,@secondary 100%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@f-secondary-light, endColorstr=@f-secondary,GradientType=1 );
+}
+
+.cta-hollow.cta-secondary,
+.cta-hollow-thick.cta-secondary,
+.cta-hollow-thicker.cta-secondary {
+	background: none;
+	color: @secondary;
+	border-color: @secondary;
+}
+
+
+/* -------------------------- HOVER/FOCUS ---------------------------- */
+
+.cta:hover,
+.cta:focus {
+	background: @hover;
+	color: @hover-font;
+	border-color: @hover;
+	text-decoration: none;
+}
+
+
+
