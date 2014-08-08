@@ -1,5 +1,5 @@
 /*
- * DOTcta v1.1.3 
+ * DOTcta v1.2.0 
  * http://libs.doodleboxmedia.co.uk/dot/cta
  * Copyright 2014 Doodlebox Media Ltd
  * http://www.doodleboxmedia.co.uk
@@ -297,31 +297,14 @@ button.cta-block {
 }
 
 
-@media screen and (min-width:600px) and (max-width:767px) {
-	
-	.cta-flat,
-	.cta-gradient,
-	.cta-glossy,
-	.cta-hollow,
-	.cta-hollow-thick,
-	.cta-hollow-thicker {
-		display: block;
-  		width: 80% !important;
-		margin-left: 10% !important;
-		margin-right: 10%;
-		clear: both;
-		padding-left: 0;
-		padding-right: 0
-	}
+@media screen and (max-width:767px) {
 		
 	.cta-block {
 	  display: block;
 	  width: 100% !important;
 	  margin: 0 !important;
 	}
-}
 
-@media screen and (max-width:599px) {
 
 	.cta-flat, .cta-flat.cta-wide,
 	.cta-gradient, .cta-gradient.cta-wide,
