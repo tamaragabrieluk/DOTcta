@@ -311,7 +311,8 @@ button.cta-block {
 	.cta-glossy, .cta-glossy.cta-wide,
 	.cta-hollow, .cta-hollow.cta-wide,
 	.cta-hollow-thick, .cta-hollow-thick.cta-wide,
-	.cta-hollow-thicker, .cta-hollow-thicker.cta-wide {
+	.cta-hollow-thicker, .cta-hollow-thicker.cta-wide,
+	.cta-disabled {
 		display: block;
   		width: 100%;
 		clear: both;
