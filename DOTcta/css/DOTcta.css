@@ -404,6 +404,11 @@ button.cta-block {
 	cursor: not-allowed !important
 }
 
+.cta-disabled.cta-wide {
+	line-height: 1.5;
+	padding: 8px 4em !important;
+}
+
 
 
 /* -------------------------------------------- White theme */
