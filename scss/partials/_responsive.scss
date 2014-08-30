@@ -5,10 +5,9 @@
         display: block;
         width: 100%;
         clear: both;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important  
+        
+        @include marginLeftRight (auto !important, auto !important);
+        @include paddingLeftRight (0 !important, 0 !important); 
     }
     
 }
