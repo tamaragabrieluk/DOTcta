@@ -1,0 +1,65 @@
+/* =============================================================================
+
+                                # BUTTON STYLES
+
+============================================================================= */
+
+
+/* -------------------------------------------- Flat, Glossy, Gradient */
+
+.cta-flat,
+.cta-glossy,
+.cta-gradient {
+	line-height: 1.5;
+	padding: 8px 1em;
+    border:  none;
+}
+
+
+
+/* -------------------------------------------- Hollow */
+
+.cta-hollow {
+	border: 1px solid;
+	line-height: 1.41;
+	padding: 8px 0.85em;
+}
+
+
+
+/* -------------------------------------------- Hollow thick */
+
+.cta-hollow-thick {
+	border: 3px solid;
+	line-height: 1.22;
+	padding: 8px 0.9em;
+}
+
+
+
+/* -------------------------------------------- Hollow extra thick */
+
+.cta-hollow-thicker {
+	border: 6px solid;
+	line-height: 0.98;
+	padding: 10px 0.75em;
+}
+
+
+
+// -------------------------------------------- INPUT TYPES
+
+input[type] {
+
+    &.cta-hollow {
+        @extend .cta-hollow;
+    }
+    
+    &.cta-hollow-thick {
+        @extend .cta-hollow-thick;
+    }
+    
+    &.cta-hollow-thicker {
+        @extend .cta-hollow-thicker;
+    }
+}

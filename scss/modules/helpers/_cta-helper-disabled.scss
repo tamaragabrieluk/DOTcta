@@ -1,0 +1,18 @@
+/* =============================================================================
+
+                         # BUTTON HELPER -- CTA DISABLED
+
+============================================================================= */
+	
+.cta-disabled {
+   @include theme ($disabled-color, $disabled-text);
+   cursor: not-allowed !important;
+}
+.cta-disabled:hover {
+    @extend .cta-disabled;
+}
+
+.cta-disabled.cta-wide {
+	line-height: 1.5;
+	padding: 8px 4em !important;
+}

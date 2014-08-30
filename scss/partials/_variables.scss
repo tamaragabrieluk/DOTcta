@@ -1,0 +1,78 @@
+// =============================================================================
+
+                                    // # VARIABLES
+
+// =============================================================================
+
+// **
+// * Define commonly used values throughout the CSS
+// *
+// * 1.  Uncomment the custom-theme if you wish to use your own colours, head
+// *     over to themes/main-theme-variables/custom-theme-colours.scss and drop
+// *     your own colours, then in the main DOTcta.scss file uncomment 
+// *     the line that imports the custom theme rules: 
+// *     @import 'themes/custom-theme'; then recompile.
+// *
+// * 2.  If you want ot use one of the themes that comes with DOTcta, uncomment
+// *     the line and replace [NAME-OF-THEME] with the name of the theme you
+// *     want to use, which can be found in themes/dotcta-theme-variables. Then
+// *     in the main DOTcta.scss file uncomment the line that imports the custom
+// *     theme rules: @import 'themes/custom-theme'; then recompile.
+// *
+
+
+
+
+
+// *** Default/light theme colours
+
+@import 'themes/main-theme-variables/default-theme-colours';
+@import 'themes/main-theme-variables/light-theme-colours';
+// @import 'themes/main-theme-variables/custom-theme-colours';  // [1] 
+// @import 'themes/dotcta-theme-variables/[NAME-OF-THEME]';  // [2]
+
+
+
+
+// *** Disabled colours
+
+$disabled-color               : #ccc !important;
+$disabled-text                : #777 !important;
+
+
+
+
+// *** Gradient/Glossy amount
+
+$amount-gradient-top           : 50%;
+$amount-gradient-bottom        : 100%;
+$amount-glossy-top             : 50%;
+$amount-glossy-bottom          : 55%;
+
+
+
+
+// *** Gradient/Glossy lighten amount
+
+$glossy-primary-lighten        : 10;
+$gradient-primary-lighten      : 10;
+$glossy-secondary-lighten      : 10;
+$gradient-secondary-lighten    : 10;
+$glossy-tertiary-lighten       : 5;
+$gradient-tertiary-lighten     : 5;
+$glossy-hover-lighten          : 5;
+$gradient-hover-lighten        : 5;
+
+
+
+
+// *** Breakpoints for responsive
+
+$break-lg         :	1200px;
+$break-md         :	992px;
+$break-sm         :	768px;
+$break-xs         :	600px;
+$break-xxs        :	599px;
+$break-low-res-w  : 1366px;
+$break-low-res-h  : 768px;
+

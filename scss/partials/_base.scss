@@ -1,0 +1,43 @@
+/* =============================================================================
+
+                                    #BASE
+
+============================================================================= */
+
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+button {
+	padding: 0;
+	border: none;
+    font: inherit/inherit inherit;
+}
+
+input[type] {
+    
+    &.cta {
+        @include boxShadow (none);
+    }
+}
+
+
+.cta {
+    font-family: Arial, Helvetica, sans serif;
+    display: inline-block;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+	padding: 8px 2%;
+	box-sizing: border-box;
+    
+    @include boxSizing;
+    @include userSelect;
+    @include transition (all .3s ease-in-out);
+    @include marginTopBottom (10px, 10px);
+}

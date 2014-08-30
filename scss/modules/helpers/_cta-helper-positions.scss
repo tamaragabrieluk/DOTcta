@@ -1,0 +1,119 @@
+/* =============================================================================
+
+                                # BUTTTON ALIGNMENT
+
+============================================================================= */
+
+/* -------------------------------------------- Left align single button */
+
+.cta-align-left {
+	text-align: left;
+    display: block;
+}
+
+
+
+/* -------------------------------------------- Center align single button */
+
+.cta-align-center {
+	text-align: center;
+    display: block;
+}
+
+
+
+/* -------------------------------------------- Right align single button */
+.cta-align-right {
+	text-align: right;
+    display: block;
+}
+
+
+
+
+
+/* =============================================================================
+
+						# BUTTON GROUPING AND LISTING
+
+================================================================================*/
+
+/* -------------------------------------------- List wrapper */
+
+.cta-list {
+	padding: 0;
+
+    li {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+/* -------------------------------------------- Group wrapper for blocks */
+
+.cta-group {
+	overflow: hidden;	
+}
+
+
+
+
+
+/* =============================================================================
+
+                                # BUTTTON BLOCKS
+
+============================================================================= */
+
+.cta-block,
+.cta-2,
+.cta-3 {
+    @include paddingLeftRight (0 !important, 0 !important);
+}
+
+/* -------------------------------------------- full width - block */
+
+.cta-block {
+    display: block;
+    width: 100%;
+}
+
+
+
+/* -------------------------------------------- Two in a row */
+
+.cta-2 {
+	float: left;
+	margin: 1%;
+	width: 49%;	
+
+        &:first-child {
+            margin-left: 0;
+        }
+    
+        &:last-child {
+            margin-right: 0;
+        }
+}
+
+
+
+/* -------------------------------------------- Three in a row */
+
+.cta-3 {
+	float: left;
+	margin: 1%;
+	width: 32%;	
+    
+        &:first-child {
+            margin-left: 0;
+        }
+        
+        &:last-child {
+            margin-right: 0;
+        }
+}
+

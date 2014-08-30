@@ -1,0 +1,48 @@
+// =============================================================================
+
+                                // # BREAKPOINTS
+
+// =============================================================================
+
+@mixin respondTo($media) {
+    @if $media == xxSmallDevices {
+        @media screen and (max-width: $break-xxs) { @content; }
+    }
+    @else if $media == xSmallDevices {
+        @media screen and (min-width: $break-xs) and (max-width: $break-sm -1) { @content; }
+    }
+    @else if $media == smallDevices {
+        @media screen and (min-width: $break-sm) and (max-width: $break-md - 1) { @content; }
+    }
+    @else if $media == mediumDevices {
+        @media screen and (min-width: $break-md) and (max-width: $break-lg - 1) { @content; }
+    }
+    @else if $media == largeDevices {
+        @media screen and (min-width: $break-lg) { @content; }
+    }
+    
+    @else if $media == lowResLaptop {
+        @media screen and (width: $break-low-res-w) and (height: $break-low-res-h) { @content; }
+    }
+    
+
+    @else if $media == uptoXSmallDevices {
+        @media screen and (max-width: $break-sm - 1) { @content; }
+    }
+    @else if $media == uptoSmallDevices {
+        @media screen and (max-width: $break-md - 1) { @content; }
+    }
+    @else if $media == uptoMediumDevices {
+        @media screen and (max-width: $break-lg - 1) { @content; }
+    }
+}
+
+// EXAMPLE USAGE:
+// .test-media-querie {
+//  float: left;
+//  width: 250px;
+//  @include respondTo(xxSmallDevices) { width: 80% ;}
+//  @include respondTo(xSmallDevices) { width: 100% ;}
+//  @include respondTo(smallDevices) { width: 125px; }
+//  @include respondTo(mediumDevices) { float: none; }
+// }

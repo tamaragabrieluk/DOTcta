@@ -3,8 +3,7 @@
 <meta charset="utf-8">
 <title>DOTcta Demo | Doodlebox Media Ltd</title>
 
-<link rel="stylesheet" href="DOTcta/css/DOTcta.min.css"> <!-- main DOTcta css -->
-<link rel="stylesheet" href="DOTcta/css/DOTcta.theme-default.min.css"> <!-- default theme for DOTcta -- remove this to add a custom theme -->
+<link rel="stylesheet" href="css/DOTcta.css"> <!-- main DOTcta css -->
 
 <style type="text/css">
 	body {
@@ -16,9 +15,8 @@
 		font-size: 3em;
 		font-weight: 100;
 	}
-	p {
-		margin-bottom: 40px;
-		font-size: 1.2em;
+	span {
+		margin-bottom: 20px;
 	}
 	h1, p {
 		text-align: center;	
@@ -38,15 +36,24 @@
 	<div class="page-wrapper">
     	<h1>DOTcta demo buttons</h1>
         <p>Why don't you try swaping out the default theme for a one of the themes created for DOTcta, to see just how easy it is to change your mind about your button colours!</p>
-        <p class="cta-align-center"><button type="button" class="cta cta-lg-swoosh cta-flat cta-primary">Flat swoosh button</button></p>
-        <p class="cta-align-center"><button type="button" class="cta cta-lg-curved cta-glossy cta-secondary">Glossy curved button</button></p>
-        <p class="cta-align-center"><button type="button" class="cta cta-lg-pill cta-hollow cta-primary">Hollow pill button</button></p>
-        <p class="cta-align-center"><button type="button" class="cta cta-lg-swoosh-r cta-hollow-thick cta-secondary">Thick hollow reversed swoosh button</button></p>
-        <p class="cta-align-center"><button type="button" class="cta cta-lg cta-hollow-thicker cta-no-stack cta-secondary">Thicker hollow default button</button></p>
-        <p class="cta-align-center"><button type="button" class="cta cta-lg-curved cta-disabled">Disabled button</button></p>
+        <p class="cta-align-center"><button type="button" class="cta cta-md-swoosh cta-flat cta-primary cta-wide">Flat 1 wide</button></p>
+        
+        <div class="cta-group">
+            <button type="button" class="cta cta-md-curved cta-gradient cta-secondary cta-3">Flat 1 wide</button>
+            <a href="#" class="cta cta-md-curved cta-glossy cta-secondary cta-3">Flat 1 wide</a>
+            <button type="button" class="cta cta-md-curved cta-hollow-thick cta-primary cta-3">Flat 1 wide</button>
+        </div>
+        
+        <span class="cta-align-center"><input type="submit" class="cta cta-lg-curved cta-hollow cta-primary cta-wide" value="wide submit button"></span>
+        <span class="cta-align-center"><button type="button" class="cta cta-lg-curved cta-gradient cta-primary">Glossy 3</button></span>
+        <span class="cta-align-center"><button type="button" class="cta cta-lg-swoosh-r cta-glossy cta-primary">Gradient 2</button></span>
+        <span class="cta-align-center"><button type="button" class="cta cta-lg-pill cta-hollow">Hollow</button></span>
+        <span class="cta-align-center"><button type="button" class="cta cta-lg-swoosh-r cta-hollow-thick">Thick reversed</button></span>
+        <span class="cta-align-center"><button type="button" class="cta cta-lg cta-hollow-thicker cta-no-stack">Thicker no</button></span>
+        <span class="cta-align-center"><button type="button" class="cta cta-lg-curved cta-disabled">Disabled button</button></span>
         <div class="dark-bg">
-        	<p class="cta-align-center"><button type="button" class="cta cta-lg-pill cta-hollow-thick cta-white">Hollow white button</button></p>
-            <p class="cta-align-center"><button type="button" class="cta cta-lg-pill cta-flat cta-white">Flat white button</button></p>
+        	<span class="cta-align-center"><button type="button" class="cta cta-lg-pill cta-hollow-thick cta-light">Hollow white button</button></span>
+            <span class="cta-align-center"><button type="button" class="cta cta-lg-pill cta-flat cta-light">Flat white button</button></span>
         </div>
 	</div>
 </body>

@@ -1,0 +1,14 @@
+.cta, 
+.cta-2, .ct-3 {
+    
+    @include respondTo (uptoXSmallDevices) {
+        display: block;
+        width: 100%;
+        clear: both;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important  
+    }
+    
+}

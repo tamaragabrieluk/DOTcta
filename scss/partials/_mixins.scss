@@ -1,0 +1,49 @@
+// =============================================================================
+
+                                    // # MIXINS
+
+// =============================================================================
+
+@mixin gradient ($color, $background1, $amount1, $background2, $amount2) {
+    color: $color;
+    background: $background1;  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop($amount1,$background1), color-stop($amount2,$background2));  
+    background: -webkit-linear-gradient(top, $background1 $amount1,$background2 $amount2);  
+    background: -moz-linear-gradient(top, $background1 $amount1,$background2 $amount2);  
+    background: -o-linear-gradient(top, $background1 $amount1,$background2 $amount2);  
+    background: -ms-linear-gradient(top, $background1 $amount1,$background2 $amount2);  
+    background: linear-gradient(to bottom, $background1 $amount1,$background2 $amount2);   
+}
+
+@mixin theme ($background, $color) {
+    background-color: $background;
+    color: $color;
+}
+
+@mixin borderedTheme ($background, $color, $border-color) {
+    background-color: $background;
+    color: $color;
+    border-color: $border-color;
+}
+
+@mixin boxShadow ($arg) {
+     -webkit-box-shadow: $arg;
+             box-shadow: $arg;
+}
+
+@mixin userSelect ($arg : none) {
+    -webkit-user-select: $arg;
+       -moz-user-select: $arg;
+        -ms-user-select: $arg;
+            user-select: $arg;   
+}
+
+@mixin transition ($arg) {
+    -webkit-transition: $arg;
+            transition: $arg; 
+}
+
+@mixin boxSizing ($arg : border-box) {
+    -webkit-box-sizing: $arg;
+            box-sizing: $arg;   
+}
