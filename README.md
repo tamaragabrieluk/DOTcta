@@ -4,7 +4,7 @@ DOTcta
 
 <h3>Getting started</h3>
 
-It's really easy to get started using DOTcta. DOTcta works with the <code>anchor</code> and <code>button</code> HTML elements, as well as any buton-like <code>input</code> types.
+It's really easy to <a href="http://youtu.be/Whf2oLg5h3E" target="_blank">get started using DOTcta</a>. DOTcta works with the <code>anchor</code> and <code>button</code> HTML elements, as well as any buton-like <code>input</code> types.
 
 
 <h3>Creating a button</h3>
@@ -60,7 +60,7 @@ To add a style your button, simply add one of the style classes to your class at
 
 <h3>Priorities for colours</h3>
 
-When <a href="http://libs.doodleboxmedia.co.uk/dot/cta/documentation/#adding-a-theme" target="_blank">using a theme</a>, you can set your buttons to override the default black and grey theme, and have whatever colours you want. There are two <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-priorities/" target="_blank">priority</a> classes to use in this instance <code>.cta-prmary</code> and <code>.cta-secondary</code>. When using these classes you can mix and match any shape and style, all you have to do is add the priority classes to you buttons:
+When <a href="http://youtu.be/nQZpi3Izvns" target="_blank">using a theme</a>, you can set your buttons to override the default black and grey theme, and have whatever colours you want. There are two <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-priorities/" target="_blank">priority</a> classes to use in this instance <code>.cta-prmary</code> and <code>.cta-secondary</code>. When using these classes you can mix and match any shape and style, all you have to do is add the priority classes to you buttons:
 
 ```html
   <button type="button" class="cta cta-md-curved cta-flat cta-primary">My button<button>
