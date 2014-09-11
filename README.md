@@ -31,13 +31,13 @@ In order to add a size to your button, you'll do something like this:
 ```
 
 <h5>Add a shape</h5>
-To add a <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-shapes/" target="_blank">shape</a> to your button, you'll need to add a shape module to your size class above. There are four shape modules in total:<br>
+To add a <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-shapes/" target="_blank">shape</a> to your button, you'll need to add a shape modifier to your size class above. There are four shape modifiers in total:<br>
 <code>-curved</code><br>
 <code>-pill</code><br>
 <code>-swoosh</code><br>
 <code>-swoosh-r</code><br>
 
-But there are 5 shapes altogether. Without adding a shape module the button will have sharp edges, which is your first button shape option. To set a different shape add a module like this:
+But there are 5 shapes altogether. Without adding a shape modifier the button will have sharp edges, which is your first button shape option. To set a different shape add a modifier like this:
 
 ```html
   <button type="button" class="cta cta-md-curved">My button<button>
