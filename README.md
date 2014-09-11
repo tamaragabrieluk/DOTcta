@@ -30,7 +30,7 @@ In order to add a size to your button, you'll do something like this:
   <button type="button" class="cta cta-md">My button<button>
 ```
 
-<h5>Add a shape</h5>
+<h5>Add a shape <em>(optional)</em></h5>
 To add a <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-shapes/" target="_blank">shape</a> to your button, you'll need to add a shape modifier to your size class above. There are four shape modifiers in total:<br>
 <code>-curved</code><br>
 <code>-pill</code><br>
