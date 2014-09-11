@@ -45,12 +45,12 @@ But there are 5 shapes altogether. Without adding a shape modifier the button wi
 
 <h5>Add a style</h5>
 There are five <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-styles/" target="_blank">style</a> classes altogether:<br>
-<code>.flat</code><br>
-<code>.hollow</code><br>
-<code>.hollow-thick</code><br>
-<code>.hollow-thicker</code><br>
-<code>.gradient</code><br>
-<code>.glossy</code><br>
+<code>.cta-flat</code><br>
+<code>.cta-hollow</code><br>
+<code>.cta-hollow-thick</code><br>
+<code>.cta-hollow-thicker</code><br>
+<code>.cta-gradient</code><br>
+<code>.cta-glossy</code><br>
 
 To add a style your button, simply add one of the style classes to your class attribute. Your button code will look something like this:
 
