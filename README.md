@@ -6,6 +6,7 @@ DOTcta
 
 It's really easy to <a href="http://youtu.be/Whf2oLg5h3E" target="_blank">get started using DOTcta</a>. DOTcta works with the <code>anchor</code> and <code>button</code> HTML elements, as well as any buton-like <code>input</code> types.
 
+=====
 
 <h3>Creating a button</h3>
 
@@ -57,6 +58,45 @@ To add a style your button, simply add one of the style classes to your class at
 ```html
   <button type="button" class="cta cta-md-curved cta-gradient">My button<button>
 ```
+
+==========
+
+<h3>Positioning your buttons</h3>
+There are three position classes that you can use with DOTcta, in order to left, right and center align your buttons:<br>
+
+<code>.cta-align-left</code><br>
+<code>.cta-align-right</code><br>
+<code>.cta-align-center</code>
+
+All you have to do is wrap your button in a `<p>` tag like this:
+
+```html
+  <p class="cta-align-center"><a class="cta cta-lg...">Button</a></p>
+```
+
+==========
+
+<h3>Aligning your buttons</h3>
+There might be times when you want to have a block-level button or have upto 3 buttons on one line, evenly spaced. All you have to do is wrap your buttons in a `div` tag with the class `cta-group`. An example of having two butttons on one row would look like this:<br>
+
+```html
+  <div class="cta-group">
+    <a class="cta cta-sm cta-flat cta-2">Button 1</a>
+    <a class="cta cta-sm cta-flat cta-2">Button 2</a>
+  </div>
+```
+
+Note that the block-level button `cta-block` does not have to be wrapped in div with the class `cta-group` - it can stand on its own like this:<br>
+
+```html
+  <a class="cta cta-sm cta-curved cta-flat cta-block">Block-level button</a>
+```
+
+<h5>Align classes</h5>
+<code>.cta-2</code><br>
+<code>.cta-3</code>
+
+============
 
 <h3>Priorities for colours</h3>
 
