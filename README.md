@@ -107,9 +107,9 @@ Creating a list of buttons simply requires the class `.cta-list` as a class attr
 
 ```html
   <ul class="cta-list">
-    <li><a class="cta cta-md cta-curved cta-hollow">List button 1</a></li><br>
-    <li><a class="cta cta-md cta-curved cta-hollow">List button 2</a></li><br>
-    <li><a class="cta cta-md cta-curved cta-hollow">List button 3</a></li><br>
+    <li><a class="cta cta-md cta-curved cta-hollow">List button 1</a></li>
+    <li><a class="cta cta-md cta-curved cta-hollow">List button 2</a></li>
+    <li><a class="cta cta-md cta-curved cta-hollow">List button 3</a></li>
     <li><a class="cta cta-md cta-curved cta-hollow">List button 4</a></li>
   </ul>
 ```
