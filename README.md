@@ -102,7 +102,21 @@ Note that the block-level button `cta-block` does not have to be wrapped in div 
 
 ============
 
-<h3>Priorities for colours</h3>
+<h3>Create a list of buttons</h3>
+Creating a list of buttons simply requires the class `.cta-list` as a class attribute in the `ul` tag. Then you just need to wrap your buttons in the `li` tag:<br>
+
+```html
+  <ul class="cta-list">
+    <li><a class="cta cta-md cta-curved cta-hollow">List button 1</a></li><br>
+    <li><a class="cta cta-md cta-curved cta-hollow">List button 2</a></li><br>
+    <li><a class="cta cta-md cta-curved cta-hollow">List button 3</a></li><br>
+    <li><a class="cta cta-md cta-curved cta-hollow">List button 4</a></li>
+  </ul>
+```
+
+============
+
+<h3>Add colour to your buttons with priority colours</h3>
 
 When <a href="http://youtu.be/nQZpi3Izvns" target="_blank">using a theme</a>, you can set your buttons to override the default black and grey theme, and have whatever colours you want. There are two <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-priorities/" target="_blank">priority</a> classes to use in this instance <code>.cta-prmary</code> and <code>.cta-secondary</code>. When using these classes you can mix and match any shape and style, all you have to do is add the priority classes to you buttons:
 
