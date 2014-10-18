@@ -92,7 +92,7 @@ To create buttons all on one row, evenly spaced, all you have to do is wrap your
   </div>
 ```
 
-If you wanted to have three buttons, yu would just follow the same code structure above, but add one more button and change `cta-2` to `cta-3` on all of the buttons.
+If you wanted to have three buttons on one row evenly spaced, just follow the same code structure above, but add one more button and change `cta-2` to `cta-3` on all of the buttons.
 
 Note that the block-level button `cta-block` does not have to be wrapped in div with the class `cta-group` - it can stand on its own like this:<br>
 
@@ -112,3 +112,31 @@ When <a href="http://youtu.be/nQZpi3Izvns" target="_blank">using a theme</a>, yo
 ```
 
 That's pretty much the basics of adding a button to your web page. Check out the website <a href="http://www.dotcta.com" target="_blank">dotcta.com</a> for more helpers and info on using DOTcta.
+
+=======
+
+<h3>Additional helpers</h3>
+
+DOTcta comes with some additional helpers:<br>
+
+<h5>.cta-white</h5>
+This allows you to override the default colour (black) with a white button. This is particularly handy if you have a dark background and need a lighter button. To use this just add `.cta-white' to your class attribute like this:<br>
+
+```html
+  <a class="cta cta-sm cta-curved cta-flat cta-white">White button</a>
+```
+
+<h5>.cta-no-stack</h5>
+With DOTcta being responsive, it will stack your buttons with the viewport gets lower than 768px (it works nicely with Bootstrap). But say you want to keep your button from stacking and becoming a full-width button. All you have to do is add the class `.cta-no-stack` and this will keep your button and its default width:
+
+```html
+  <a class="cta cta-sm cta-curved cta-flat cta-no-stack">White button</a>
+```
+
+<h5>.cta-wide</h5>
+This class allows you to give your button a bit of extra padding left and right in order to slightly increase its width from the default:
+
+```html
+  <a class="cta cta-sm cta-curved cta-flat cta-wide">White button</a>
+```
+
