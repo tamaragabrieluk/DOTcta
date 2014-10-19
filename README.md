@@ -77,11 +77,12 @@ All you have to do is wrap your button in a `<p>` tag like this:
 ==========
 
 <h3>Aligning your buttons</h3>
-There might be times when you want to have a block-level button or have upto 3 buttons on one line, evenly spaced. The available classes for this are:<br>
+There might be times when you want to have a block-level button or have upto four buttons on one line, evenly spaced. The available classes for this are:<br>
 
 <code>.cta-block</code><br>
 <code>.cta-2</code><br>
-<code>.cta-3</code>
+<code>.cta-3</code><br>
+<code>.cta-4</code>
 
 To create buttons all on one row, evenly spaced, all you have to do is wrap your buttons in a `div` tag with the class `.cta-group`. An example of having two butttons on one row would look like this:<br>
 
@@ -92,7 +93,7 @@ To create buttons all on one row, evenly spaced, all you have to do is wrap your
   </div>
 ```
 
-If you wanted to have three buttons on one row evenly spaced, just follow the same code structure above, but add one more button and change `cta-2` to `cta-3` on all of the buttons.
+If you wanted to have three or four buttons on one row evenly spaced, just follow the same code structure above, adding the required number of buttons and using the required class, e.g. change `cta-2` to `cta-3` or `cta-4` on all of the buttons.
 
 Note that the block-level button `cta-block` does not have to be wrapped in div with the class `cta-group` - it can stand on its own like this:<br>
 
@@ -143,6 +144,43 @@ This class allows you to give your button a bit of extra padding left and right 
 
 ============
 
-<h3>Add colour to your buttons with priority classes</h3>
+<h3>Add colour to your buttons</h3>
+The default theme for DOTcta is black, but if you want to add colour to your buttons here's how.
 
-The default theme for DOTcta is black, but if you want to add colour to your buttons, head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-themes">custom-themes branch</a> to download either the Sass files of the CSS file, and learn how easy it is to add colour.
+<h5>Priority classes</h5>
+There are three priority classes you can use to add colour to your buttons:
+
+<code>.cta-primary</code><br>
+<code>.cta-secondary</code><br>
+<code>.cta-tertiary</code>
+
+Each of these classes can be mixed and matched with any size, shape or style to create a diverse range of buttons. All you have to do is add the classes to your buttons:
+
+```html
+  <a class="cta cta-sm cta-curved cta-flat cta-primary">Primary colour</a>
+  <a class="cta cta-sm cta-curved cta-hollow cta-secondary">Secondary colour</a>
+  <a class="cta cta-sm cta-curved cta-flat cta-tertiary">Tertiary colour</a>
+```
+
+Head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-themes">custom-themes branch</a> to download either the Sass files of the CSS file, and learn how easy it is to add colours to the stylesheeet.
+
+<h5>Status classes</h5>
+
+Status classes already come with their colours defined:<br>
+```html
+danger = red
+warning = amber
+success = green
+info = blue
+disabled = grey
+```
+
+In order to use these status just add the following classes to your buttons:<br>
+
+<code>.cta-danger</code><br>
+<code>.cta-warning</code><br>
+<code>.cta-success</code><br>
+<code>.cta-info</code><br>
+<code>.cta-disabled</code>
+
+Note that you can't use priority classes and status classes together. Only one or the other can be used on a single button at any time.
