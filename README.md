@@ -143,6 +143,42 @@ This class allows you to give your button a bit of extra padding left and right 
 
 ============
 
-<h3>Add colour to your buttons with priority classes</h3>
+<h3>Add colour to your buttons</h3>
+The default theme for DOTcta is black, but if you want to add colour to your buttons here's how.
 
-The default theme for DOTcta is black, but if you want to add colour to your buttons, head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-themes">custom-themes branch</a> to download either the Sass files of the CSS file, and learn how easy it is to add colour.
+<h5>Priority classes</h5>
+There are three priority classes you can use to add colour to your buttons:
+
+<code>.cta-primary</code><br>
+<code>.cta-secondary</code><br>
+<code>.cta-tertiary</code>
+
+Each of these classes can be mixed and matched with any size, shape or style to create a diverse range of buttons. All you have to do is add the classes to your buttons:
+
+```html
+  <a class="cta cta-sm cta-curved cta-flat cta-primary">Primary colour</a>
+  <a class="cta cta-sm cta-curved cta-hollow cta-secondary">Secondary colour</a>
+  <a class="cta cta-sm cta-curved cta-flat cta-tertiary">Tertiary colour</a>
+```
+
+Head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-themes">custom-themes branch</a> to download either the Sass files of the CSS file, and learn how easy it is to add colours to the stylesheeet.
+
+<h5>Status classes</h5>
+
+Status classes already come with their colours defined:<br>
+```html
+danger = red<br>
+warning = amber<br>
+success = green<br>
+info = blue<br>
+disabled = grey
+```
+
+In order to use these status just add the following classes to your buttons:<br>
+<code>.cta-danger</code><br>
+<code>.cta-warning</code><br>
+<code>.cta-success</code><br>
+<code>.cta-info</code><br>
+<code>.cta-disabled</code>
+
+Note that you can't use priority classes and status classes together. Only one or the other can be used on a single button at any time.
