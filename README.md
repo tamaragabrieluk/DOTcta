@@ -31,9 +31,3 @@ By using the <a href="https://github.com/doodleboxmedia/DOTcta/blob/custom-theme
 
 <h5>Using the CSS file</h5>
 If you're not too familiar with Sass or you don't use, you can simply grab the <a href="https://github.com/doodleboxmedia/DOTcta/blob/custom-themes/css/DOTcta-custom-theme.css">DOTcta-custom-theme.css</a> from the css folder and add your colours in throughout the stylesheet (just replace the hex values that are already there). Then all you have to do is include the stylesheet in your HTML document.
-
-======
-
-<h3>That's it</h3>
-
-That's pretty much the basics of adding a button to your web page. Check out the website <a href="http://www.dotcta.com" target="_blank">dotcta.com</a> for more helpers and info on using DOTcta.
