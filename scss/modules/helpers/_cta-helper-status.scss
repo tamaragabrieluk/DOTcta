@@ -1,0 +1,284 @@
+/* =============================================================================
+
+                         # BUTTON HELPER -- CTA STATUS
+
+============================================================================= */
+
+
+
+
+
+/* -------------------------- # DISABLED STATUS ------------------------------ */
+
+
+
+.cta-disabled {
+    cursor: not-allowed !important;
+
+    &.cta-flat {
+        background: $disabled-color;
+        color: $disabled-text;
+
+
+        &:hover, &:focus {
+            @extend .cta-disabled.cta-flat;
+        }
+    }
+
+    &.cta-glossy {
+        @include gradient ($disabled-text, lighten($disabled-color, $glossy-status-lighten), $amount-glossy-top, $disabled-color, $amount-glossy-bottom);
+
+
+        &:hover, &:focus {
+           @extend .cta-disabled.cta-glossy;
+        }
+    }
+
+    &.cta-gradient {
+        @include gradient ($disabled-text, lighten($disabled-color, $gradient-status-lighten), $amount-gradient-top, $disabled-color, $amount-gradient-bottom);
+
+
+        &:hover, &:focus {
+            @extend .cta-disabled.cta-gradient;
+        }
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $disabled-color;
+        border-color: $disabled-color;
+
+
+        &:hover, &:focus {
+            background: transparent !important;
+            color: $disabled-color !important;
+            border-color: $disabled-color !important;
+        }
+    }
+}
+
+
+
+
+
+/* -------------------------- # DANGER STATUS ------------------------------ */
+
+
+
+.cta-danger {
+
+    &.cta-flat {
+        background: $danger-color;
+        color: $danger-text;
+
+
+        &:hover, &:focus {
+            background: darken($danger-color, 15);
+            color: $danger-text;
+        }
+    }
+
+    &.cta-glossy {
+        @include gradient ($danger-text, lighten($danger-color, $glossy-status-lighten), $amount-glossy-top, $danger-color, $amount-glossy-bottom);
+
+
+        &:hover, &:focus {
+           @include gradient ($danger-text, $danger-color, $amount-glossy-top, darken($danger-color, 5), $amount-glossy-bottom);
+            color: darken($danger-color,  25);
+        }
+    }
+
+    &.cta-gradient {
+        @include gradient ($danger-text, lighten($danger-color, $gradient-status-lighten), $amount-gradient-top, $danger-color, $amount-gradient-bottom);
+
+
+        &:hover, &:focus {
+            @include gradient ($danger-text, darken($danger-color, 5), $amount-gradient-top, $danger-color, $amount-gradient-bottom);
+            color: darken($danger-color,  25);
+        }
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $danger-color;
+        border-color: $danger-color;
+
+
+        &:hover, &:focus {
+            background: transparent;
+            color: darken($danger-color,  25);
+            border-color: darken($danger-color,  25);
+        }
+    }
+}
+
+
+
+
+
+/* -------------------------- # WARNING STATUS ------------------------------ */
+
+
+
+.cta-warning {
+
+    &.cta-flat {
+        background: $warning-color;
+        color: $warning-text;
+
+        &:hover, &:focus {
+            background: darken($warning-color, 20);
+            color: $warning-text;
+        }
+    }
+
+    &.cta-glossy {
+        @include gradient ($warning-text, lighten($warning-color, $glossy-status-lighten), $amount-glossy-top, $warning-color, $amount-glossy-bottom);
+
+        &:hover, &:focus {
+           @include gradient ($warning-text, $warning-color, $amount-glossy-top, darken($warning-color, 5), $amount-glossy-bottom);
+            color: darken($warning-color, 27);
+        }
+    }
+
+    &.cta-gradient {
+        @include gradient ($warning-text, lighten($warning-color, $gradient-status-lighten), $amount-gradient-top, $warning-color, $amount-gradient-bottom);
+
+        &:hover, &:focus {
+            @include gradient ($warning-text, darken($warning-color, 5), $amount-gradient-top, $warning-color, $amount-gradient-bottom);
+            color: darken($warning-color, 27);
+        }
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $warning-color;
+        border-color: $warning-color;
+
+
+        &:hover, &:focus {
+            background: transparent;
+            color: darken($warning-color,  27);
+            border-color: darken($warning-color,  27);
+        }
+    }
+}
+
+
+
+
+
+/* -------------------------- # SUCCESS STATUS ------------------------------ */
+
+
+
+.cta-success {
+
+    &.cta-flat {
+        background: $success-color;
+        color: $success-text;
+
+        &:hover, &:focus {
+            background: darken($success-color, 15);
+            color: $success-text;
+        }
+    }
+
+    &.cta-glossy {
+        @include gradient ($success-text, lighten($success-color, $glossy-status-lighten), $amount-glossy-top, $success-color, $amount-glossy-bottom);
+
+        &:hover, &:focus {
+           @include gradient ($success-text, $success-color, $amount-glossy-top, darken($success-color, 5), $amount-glossy-bottom);
+            color: darken($success-color, 25);
+        }
+    }
+
+    &.cta-gradient {
+        @include gradient ($success-text, lighten($success-color, $gradient-status-lighten), $amount-gradient-top, $success-color, $amount-gradient-bottom);
+
+        &:hover, &:focus {
+            @include gradient ($success-text, darken($success-color, 5), $amount-gradient-top, $success-color, $amount-gradient-bottom);
+            color: darken($success-color, 25);
+        }
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $success-color;
+        border-color: $success-color;
+
+
+        &:hover, &:focus {
+            background: transparent;
+            color: darken($success-color,  25);
+            border-color: darken($success-color,  25);
+        }
+    }
+}
+
+
+
+
+
+/* -------------------------- # INFO STATUS ------------------------------ */
+
+
+
+.cta-info {
+
+    &.cta-flat {
+        background: $info-color;
+        color: $info-text;
+
+        &:hover, &:focus {
+            background: darken($info-color, 15);
+            color: $info-text;
+        }
+    }
+
+    &.cta-glossy {
+        @include gradient ($info-text, lighten($info-color, $glossy-status-lighten), $amount-glossy-top, $info-color, $amount-glossy-bottom);
+
+        &:hover, &:focus {
+           @include gradient ($info-text, $info-color, $amount-glossy-top, darken($info-color, 5), $amount-glossy-bottom);
+            color: darken($info-color, 25);
+        }
+    }
+
+    &.cta-gradient {
+        @include gradient ($info-text, lighten($info-color, $gradient-status-lighten), $amount-gradient-top, $info-color, $amount-gradient-bottom);
+
+        &:hover, &:focus {
+            @include gradient ($info-text, darken($info-color, 5), $amount-gradient-top, $info-color, $amount-gradient-bottom);
+            color: darken($info-color, 25);
+        }
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $info-color;
+        border-color: $info-color;
+
+
+        &:hover, &:focus {
+            background: transparent;
+            color: darken($info-color,  25);
+            border-color: darken($info-color,  25);
+        }
+    }
+}

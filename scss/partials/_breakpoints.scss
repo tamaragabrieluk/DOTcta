@@ -5,6 +5,9 @@
 // =============================================================================
 
 @mixin respondTo($media) {
+
+     // -------------------------------------- BETWEEN DEVICE WIDTHS ***
+
     @if $media == xxSmallDevices {
         @media screen and (max-width: $break-xxs) { @content; }
     }
@@ -20,11 +23,14 @@
     @else if $media == largeDevices {
         @media screen and (min-width: $break-lg) { @content; }
     }
-    
+
     @else if $media == lowResLaptop {
         @media screen and (width: $break-low-res-w) and (height: $break-low-res-h) { @content; }
     }
-    
+
+
+
+     // -------------------------------------- UPTO DEVICE WIDTHS ***
 
     @else if $media == uptoXSmallDevices {
         @media screen and (max-width: $break-sm - 1) { @content; }
@@ -36,13 +42,3 @@
         @media screen and (max-width: $break-lg - 1) { @content; }
     }
 }
-
-// EXAMPLE USAGE:
-// .test-media-querie {
-//  float: left;
-//  width: 250px;
-//  @include respondTo(xxSmallDevices) { width: 80% ;}
-//  @include respondTo(xSmallDevices) { width: 100% ;}
-//  @include respondTo(smallDevices) { width: 125px; }
-//  @include respondTo(mediumDevices) { float: none; }
-// }

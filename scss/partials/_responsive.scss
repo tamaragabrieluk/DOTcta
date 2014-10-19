@@ -1,13 +1,22 @@
-.cta, 
-.cta-2, .ct-3 {
-    
+/* =============================================================================
+
+                                    #RESPONSIVE
+
+============================================================================= */
+
+
+
+.cta,
+.cta-2, .ct-3, cta-4 {
+
     @include respondTo (uptoXSmallDevices) {
         display: block;
         width: 100%;
         clear: both;
-        
-        @include marginLeftRight (auto !important, auto !important);
-        @include paddingLeftRight (0 !important, 0 !important); 
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: !important;
+        padding-right: 0 !important;
     }
-    
+
 }

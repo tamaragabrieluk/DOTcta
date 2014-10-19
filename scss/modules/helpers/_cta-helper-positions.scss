@@ -4,10 +4,12 @@
 
 ============================================================================= */
 
+
+
 /* -------------------------------------------- Left align single button */
 
 .cta-align-left {
-	text-align: left;
+    text-align: left;
     display: block;
 }
 
@@ -16,7 +18,7 @@
 /* -------------------------------------------- Center align single button */
 
 .cta-align-center {
-	text-align: center;
+    text-align: center;
     display: block;
 }
 
@@ -24,7 +26,7 @@
 
 /* -------------------------------------------- Right align single button */
 .cta-align-right {
-	text-align: right;
+    text-align: right;
     display: block;
 }
 
@@ -34,14 +36,14 @@
 
 /* =============================================================================
 
-						# BUTTON GROUPING AND LISTING
+                        # BUTTON GROUPING AND LISTING
 
 ================================================================================*/
 
 /* -------------------------------------------- List wrapper */
 
 .cta-list {
-	padding: 0;
+    padding: 0;
 
     li {
         list-style: none;
@@ -55,7 +57,7 @@
 /* -------------------------------------------- Group wrapper for blocks */
 
 .cta-group {
-	overflow: hidden;	
+    overflow: hidden;
 }
 
 
@@ -70,8 +72,10 @@
 
 .cta-block,
 .cta-2,
-.cta-3 {
-    @include paddingLeftRight (0 !important, 0 !important);
+.cta-3,
+.cta-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 /* -------------------------------------------- full width - block */
@@ -86,14 +90,14 @@
 /* -------------------------------------------- Two in a row */
 
 .cta-2 {
-	float: left;
-	margin: 1%;
-	width: 49%;	
+    float: left;
+    margin: 1%;
+    width: 49%;
 
         &:first-child {
             margin-left: 0;
         }
-    
+
         &:last-child {
             margin-right: 0;
         }
@@ -104,14 +108,32 @@
 /* -------------------------------------------- Three in a row */
 
 .cta-3 {
-	float: left;
-	margin: 1%;
-	width: 32%;	
-    
+    float: left;
+    margin: 1%;
+    width: 32%;
+
         &:first-child {
             margin-left: 0;
         }
-        
+
+        &:last-child {
+            margin-right: 0;
+        }
+}
+
+
+
+/* -------------------------------------------- Four in a row */
+
+.cta-4 {
+    float: left;
+    margin: 1%;
+    width: 23.5%;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
         &:last-child {
             margin-right: 0;
         }

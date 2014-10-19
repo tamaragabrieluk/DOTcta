@@ -8,15 +8,15 @@
 .cta-flat,
 .cta-glossy,
 .cta-gradient {
-    
+
     &.cta-wide {
-	    line-height: 1.5;
-	    padding: 8px 4em !important;
-    }    
+        line-height: 1.5;
+        padding: 8px 4em !important;
+    }
 }
 
 .cta-hollow {
-    
+
     &.cta-wide {
         border: 1px solid;
         line-height: 1.41;
@@ -26,8 +26,8 @@
 
 
 
-.cta-hollow-thick { 
-    
+.cta-hollow-thick {
+
     &.cta-wide {
         border: 3px solid;
         line-height: 1.22;
@@ -36,10 +36,10 @@
 }
 
 .cta-hollow-thicker {
-    
+
     &.cta-wide {
-	    border: 6px solid;
-	    line-height: 0.98;
-	    padding: 10px 3.75em !important;
+        border: 6px solid;
+        line-height: 0.98;
+        padding: 10px 3.75em !important;
     }
 }

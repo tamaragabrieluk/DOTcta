@@ -7,25 +7,25 @@
 
 /* -------------------------------------------- Curved edges */
 
-[class*=-curved] {
-	border-radius: 0.3em;
+.cta-curved {
+    border-radius: 0.3em;
 }
 
 
 /* -------------------------------------------- Rounded edges */
 
-[class*=-pill] {
-	border-radius: 2.3em;
+.cta-pill {
+    border-radius: 2.3em;
 }
 
 /* -------------------------------------------- Swoosh edges */
 
-[class*=-swoosh] {
-	border-radius: 1.1em 0 1.1em 0;
+.cta-swoosh {
+    border-radius: 1.3em 0 1.3em 0;
 }
 
 /* -------------------------------------------- Swoosh reversed edges */
 
-[class*=-swoosh-r] {
-	border-radius: 0 1.1em 0 1.1em;
+.cta-swoosh-r {
+    border-radius: 0 1.3em 0 1.3em;
 }
