@@ -14,9 +14,9 @@ When using a theme, you can set your buttons to override the default black theme
 When using these classes you can mix and match any size, shape and style, all you have to do is add the priority classes to you buttons:
 
 ```html
-  <button type="button" class="cta cta-md-curved cta-flat cta-primary">Primary colour button<button>
-  <button type="button" class="cta cta-md-curved cta-hollow cta-secondary">Secondary colour button<button>
-  <button type="button" class="cta cta-md-curved cta-flat cta-tertiary">Tertiary colour button<button>
+  <button type="button" class="cta cta-md cta-curved cta-flat cta-primary">Primary colour button<button>
+  <button type="button" class="cta cta-md cta-curved cta-hollow cta-secondary">Secondary colour button<button>
+  <button type="button" class="cta cta-md cta-curved cta-flat cta-tertiary">Tertiary colour button<button>
 ```
 
 =======
