@@ -1,0 +1,181 @@
+// =============================================================================
+
+                       // # FOR DOTcta CUSTOM THEME
+
+// =============================================================================
+
+
+
+/* -------------------------- # COLOUR USAGE ------------------------------ */
+
+
+/* *** Primary colour */
+
+.color__bg-primary {
+    background-color: $custom-primary-color;
+}
+
+.color__text-primary {
+    color: $custom-primary-color;
+}
+
+
+
+/* *** Secondary colour */
+
+.color__bg-secondary {
+    background-color: $custom-secondary-color;
+}
+
+.color__text-secondary {
+    color: $custom-secondary-color;
+}
+
+
+
+/* *** Tertiary colour */
+
+.color__bg-tertiary {
+    background-color: $custom-tertiary-color;
+}
+
+.color__text-tertiary {
+    color: $custom-tertiary-color;
+}
+
+
+
+
+/* -------------------------- # PRIMARY COLOUR ------------------------------ */
+
+
+
+.cta-primary {
+
+    &.cta-flat {
+        background: $custom-primary-color;
+        color: $custom-primary-text;
+    }
+
+    &.cta-glossy {
+        @include gradient ($custom-primary-text, lighten($custom-primary-color, $glossy-primary-lighten), $amount-glossy-top, $custom-primary-color, $amount-glossy-bottom);
+    }
+
+    &.cta-gradient {
+        @include gradient ($custom-primary-text, lighten($custom-primary-color, $gradient-primary-lighten), $amount-gradient-top, $custom-primary-color, $amount-gradient-bottom);
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $custom-primary-color;
+        border-color: $custom-primary-color;
+    }
+}
+
+
+
+
+
+/* -------------------------- # SECONDARY COLOUR ------------------------------ */
+
+
+
+.cta-secondary {
+
+    &.cta-flat {
+        background: $custom-secondary-color;
+        color: $custom-secondary-text;
+    }
+
+    &.cta-glossy {
+        @include gradient ($custom-secondary-text, lighten($custom-secondary-color, $glossy-secondary-lighten), $amount-glossy-top, $custom-secondary-color, $amount-glossy-bottom);
+    }
+
+    &.cta-gradient {
+        @include gradient ($custom-secondary-text, lighten($custom-secondary-color, $gradient-secondary-lighten), $amount-gradient-top, $custom-secondary-color, $amount-gradient-bottom);
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $custom-secondary-color;
+        border-color: $custom-secondary-color;
+    }
+}
+
+
+
+
+
+/* -------------------------- # TERTIARY COLOUR ------------------------------ */
+
+
+
+.cta-tertiary {
+
+    &.cta-flat {
+        background: $custom-tertiary-color;
+        color: $custom-tertiary-text;
+    }
+
+    &.cta-glossy {
+        @include gradient ($custom-tertiary-text, lighten($custom-tertiary-color, $glossy-tertiary-lighten), $amount-glossy-top, $custom-tertiary-color, $amount-glossy-bottom);
+    }
+
+    &.cta-gradient {
+        @include gradient ($custom-tertiary-text, lighten($custom-tertiary-color, $gradient-tertiary-lighten), $amount-gradient-top, $custom-tertiary-color, $amount-gradient-bottom);
+    }
+
+
+    &.cta-hollow,
+    &.cta-hollow-thick,
+    &.cta-hollow-thicker {
+        background: transparent;
+        color: $custom-tertiary-color;
+        border-color: $custom-tertiary-color;
+    }
+}
+
+
+
+
+
+
+/* -------------------------- # HOVER/FOCUS ---------------------------- */
+
+.cta {
+
+    &.cta-primary, &.cta-secondary, &.cta-tertiary {
+       &.cta-flat {
+            &:hover, &:focus {
+                background: $custom-hover-color;
+                color: $custom-hover-text;
+            }
+       }
+
+        &.cta-hollow, &.cta-hollow-thick, &.cta-hollow-thicker {
+            &:hover, &:focus {
+                background: $custom-hover-color;
+                color: $custom-hover-text;
+                border-color: $custom-hover-color;
+            }
+       }
+
+       &.cta-glossy {
+           &:hover, &:focus {
+                @include gradient ($custom-hover-text, lighten($custom-hover-color, $glossy-hover-lighten), $amount-glossy-top, $custom-hover-color, $amount-glossy-bottom);
+           }
+        }
+
+        &.cta-gradient {
+            &:hover, &:focus {
+                @include gradient ($custom-hover-text, lighten($custom-hover-color, $glossy-hover-lighten), $amount-gradient-top, $custom-hover-color, $amount-gradient-bottom);
+            }
+        }
+    }
+}

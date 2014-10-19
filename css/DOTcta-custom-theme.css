@@ -1,0 +1,158 @@
+/**
+ * DOTcta Custom Theme
+ * http://libs.doodleboxmedia.co.uk/dot/cta
+ * Copyright 2014 Doodlebox Media Ltd
+ * http://www.doodleboxmedia.co.uk
+ * Licensed under MIT - https://libs.doodleboxmedia.co.uk/dot/cta/mit-license
+ */
+/* -------------------------- # COLOUR USAGE ------------------------------ */
+/* *** Primary colour */
+.color__bg-primary {
+  background-color: #2f2628;
+}
+
+.color__text-primary {
+  color: #2f2628;
+}
+
+/* *** Secondary colour */
+.color__bg-secondary {
+  background-color: #ab5925;
+}
+
+.color__text-secondary {
+  color: #ab5925;
+}
+
+/* *** Tertiary colour */
+.color__bg-tertiary {
+  background-color: #f7cea0;
+}
+
+.color__text-tertiary {
+  color: #f7cea0;
+}
+
+/* -------------------------- # PRIMARY COLOUR ------------------------------ */
+.cta-primary.cta-flat {
+  background: #2f2628;
+  color: white;
+}
+.cta-primary.cta-glossy {
+  color: white;
+  background: #4b3d40;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #4b3d40), color-stop(55%, #2f2628));
+  background: -webkit-linear-gradient(top, #4b3d40 50%, #2f2628 55%);
+  background: -moz-linear-gradient(top, #4b3d40 50%, #2f2628 55%);
+  background: -o-linear-gradient(top, #4b3d40 50%, #2f2628 55%);
+  background: -ms-linear-gradient(top, #4b3d40 50%, #2f2628 55%);
+  background: linear-gradient(to bottom, #4b3d40 50%, #2f2628 55%);
+}
+.cta-primary.cta-gradient {
+  color: white;
+  background: #4b3d40;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #4b3d40), color-stop(100%, #2f2628));
+  background: -webkit-linear-gradient(top, #4b3d40 50%, #2f2628 100%);
+  background: -moz-linear-gradient(top, #4b3d40 50%, #2f2628 100%);
+  background: -o-linear-gradient(top, #4b3d40 50%, #2f2628 100%);
+  background: -ms-linear-gradient(top, #4b3d40 50%, #2f2628 100%);
+  background: linear-gradient(to bottom, #4b3d40 50%, #2f2628 100%);
+}
+.cta-primary.cta-hollow, .cta-primary.cta-hollow-thick, .cta-primary.cta-hollow-thicker {
+  background: transparent;
+  color: #2f2628;
+  border-color: #2f2628;
+}
+
+/* -------------------------- # SECONDARY COLOUR ------------------------------ */
+.cta-secondary.cta-flat {
+  background: #ab5925;
+  color: white;
+}
+.cta-secondary.cta-glossy {
+  color: white;
+  background: #d26f31;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #d26f31), color-stop(55%, #ab5925));
+  background: -webkit-linear-gradient(top, #d26f31 50%, #ab5925 55%);
+  background: -moz-linear-gradient(top, #d26f31 50%, #ab5925 55%);
+  background: -o-linear-gradient(top, #d26f31 50%, #ab5925 55%);
+  background: -ms-linear-gradient(top, #d26f31 50%, #ab5925 55%);
+  background: linear-gradient(to bottom, #d26f31 50%, #ab5925 55%);
+}
+.cta-secondary.cta-gradient {
+  color: white;
+  background: #d26f31;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #d26f31), color-stop(100%, #ab5925));
+  background: -webkit-linear-gradient(top, #d26f31 50%, #ab5925 100%);
+  background: -moz-linear-gradient(top, #d26f31 50%, #ab5925 100%);
+  background: -o-linear-gradient(top, #d26f31 50%, #ab5925 100%);
+  background: -ms-linear-gradient(top, #d26f31 50%, #ab5925 100%);
+  background: linear-gradient(to bottom, #d26f31 50%, #ab5925 100%);
+}
+.cta-secondary.cta-hollow, .cta-secondary.cta-hollow-thick, .cta-secondary.cta-hollow-thicker {
+  background: transparent;
+  color: #ab5925;
+  border-color: #ab5925;
+}
+
+/* -------------------------- # TERTIARY COLOUR ------------------------------ */
+.cta-tertiary.cta-flat {
+  background: #f7cea0;
+  color: #ab5925;
+}
+.cta-tertiary.cta-glossy {
+  color: #ab5925;
+  background: #f9dab8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f9dab8), color-stop(55%, #f7cea0));
+  background: -webkit-linear-gradient(top, #f9dab8 50%, #f7cea0 55%);
+  background: -moz-linear-gradient(top, #f9dab8 50%, #f7cea0 55%);
+  background: -o-linear-gradient(top, #f9dab8 50%, #f7cea0 55%);
+  background: -ms-linear-gradient(top, #f9dab8 50%, #f7cea0 55%);
+  background: linear-gradient(to bottom, #f9dab8 50%, #f7cea0 55%);
+}
+.cta-tertiary.cta-gradient {
+  color: #ab5925;
+  background: #f9dab8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f9dab8), color-stop(100%, #f7cea0));
+  background: -webkit-linear-gradient(top, #f9dab8 50%, #f7cea0 100%);
+  background: -moz-linear-gradient(top, #f9dab8 50%, #f7cea0 100%);
+  background: -o-linear-gradient(top, #f9dab8 50%, #f7cea0 100%);
+  background: -ms-linear-gradient(top, #f9dab8 50%, #f7cea0 100%);
+  background: linear-gradient(to bottom, #f9dab8 50%, #f7cea0 100%);
+}
+.cta-tertiary.cta-hollow, .cta-tertiary.cta-hollow-thick, .cta-tertiary.cta-hollow-thicker {
+  background: transparent;
+  color: #f7cea0;
+  border-color: #f7cea0;
+}
+
+/* -------------------------- # HOVER/FOCUS ---------------------------- */
+.cta.cta-primary.cta-flat:hover, .cta.cta-primary.cta-flat:focus, .cta.cta-secondary.cta-flat:hover, .cta.cta-secondary.cta-flat:focus, .cta.cta-tertiary.cta-flat:hover, .cta.cta-tertiary.cta-flat:focus {
+  background: #405670;
+  color: #f7cea0;
+}
+.cta.cta-primary.cta-hollow:hover, .cta.cta-primary.cta-hollow:focus, .cta.cta-primary.cta-hollow-thick:hover, .cta.cta-primary.cta-hollow-thick:focus, .cta.cta-primary.cta-hollow-thicker:hover, .cta.cta-primary.cta-hollow-thicker:focus, .cta.cta-secondary.cta-hollow:hover, .cta.cta-secondary.cta-hollow:focus, .cta.cta-secondary.cta-hollow-thick:hover, .cta.cta-secondary.cta-hollow-thick:focus, .cta.cta-secondary.cta-hollow-thicker:hover, .cta.cta-secondary.cta-hollow-thicker:focus, .cta.cta-tertiary.cta-hollow:hover, .cta.cta-tertiary.cta-hollow:focus, .cta.cta-tertiary.cta-hollow-thick:hover, .cta.cta-tertiary.cta-hollow-thick:focus, .cta.cta-tertiary.cta-hollow-thicker:hover, .cta.cta-tertiary.cta-hollow-thicker:focus {
+  background: #405670;
+  color: #f7cea0;
+  border-color: #405670;
+}
+.cta.cta-primary.cta-glossy:hover, .cta.cta-primary.cta-glossy:focus, .cta.cta-secondary.cta-glossy:hover, .cta.cta-secondary.cta-glossy:focus, .cta.cta-tertiary.cta-glossy:hover, .cta.cta-tertiary.cta-glossy:focus {
+  color: #f7cea0;
+  background: #496280;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #496280), color-stop(55%, #405670));
+  background: -webkit-linear-gradient(top, #496280 50%, #405670 55%);
+  background: -moz-linear-gradient(top, #496280 50%, #405670 55%);
+  background: -o-linear-gradient(top, #496280 50%, #405670 55%);
+  background: -ms-linear-gradient(top, #496280 50%, #405670 55%);
+  background: linear-gradient(to bottom, #496280 50%, #405670 55%);
+}
+.cta.cta-primary.cta-gradient:hover, .cta.cta-primary.cta-gradient:focus, .cta.cta-secondary.cta-gradient:hover, .cta.cta-secondary.cta-gradient:focus, .cta.cta-tertiary.cta-gradient:hover, .cta.cta-tertiary.cta-gradient:focus {
+  color: #f7cea0;
+  background: #496280;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #496280), color-stop(100%, #405670));
+  background: -webkit-linear-gradient(top, #496280 50%, #405670 100%);
+  background: -moz-linear-gradient(top, #496280 50%, #405670 100%);
+  background: -o-linear-gradient(top, #496280 50%, #405670 100%);
+  background: -ms-linear-gradient(top, #496280 50%, #405670 100%);
+  background: linear-gradient(to bottom, #496280 50%, #405670 100%);
+}
