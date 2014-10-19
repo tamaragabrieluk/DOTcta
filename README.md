@@ -5,7 +5,7 @@ The default theme for DOTcta is black, so if you want to add your own colours to
 
 <h3>Add colour to your buttons with priority classes</h3>
 
-When <a href="http://youtu.be/nQZpi3Izvns" target="_blank">using a theme</a>, you can set your buttons to override the default black theme, and have whatever colours you want. There are three priority classes to use in this instance:<br>
+When using a theme, you can set your buttons to override the default black theme, and have whatever colours you want. There are three priority classes to use in this instance:<br>
 
 <code>.cta-prmary</code><br>
 <code>.cta-secondary</code><br>
