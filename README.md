@@ -176,6 +176,7 @@ disabled = grey
 ```
 
 In order to use these status just add the following classes to your buttons:<br>
+
 <code>.cta-danger</code><br>
 <code>.cta-warning</code><br>
 <code>.cta-success</code><br>
