@@ -114,13 +114,6 @@ Creating a list of buttons simply requires the class `.cta-list` as a class attr
   </ul>
 ```
 
-
-============
-
-<h3>Add colour to your buttons with priority classes</h3>
-
-The default theme for DOTcta is black, but if you want to add colour to your buttons, head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-themes">custom-themes branch</a> to download either the Sass files of the CSS file, and learn how easy it is to add colour.
-
 =======
 
 <h3>Additional helpers</h3>
@@ -148,3 +141,8 @@ This class allows you to give your button a bit of extra padding left and right 
   <a class="cta cta-sm cta-curved cta-flat cta-wide">White button</a>
 ```
 
+============
+
+<h3>Add colour to your buttons with priority classes</h3>
+
+The default theme for DOTcta is black, but if you want to add colour to your buttons, head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-themes">custom-themes branch</a> to download either the Sass files of the CSS file, and learn how easy it is to add colour.
