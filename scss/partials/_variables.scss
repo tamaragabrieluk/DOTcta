@@ -1,0 +1,68 @@
+// =============================================================================
+
+                                    // # VARIABLES
+
+// =============================================================================
+
+
+
+// *** Default/light theme colours
+
+@import '../themes/theme-default/default-theme-colours';
+@import '../themes/theme-default/light-theme-colours';
+
+
+
+// *** Status colours
+
+$disabled-color               : #bbb;
+$disabled-text                : #888;
+$danger-color                 : #D33027;
+$danger-text                  : #fff;
+$warning-color                : #F8B040;
+$warning-text                 : #fff;
+$success-color                : #72B146;
+$success-text                 : #fff;
+$info-color                   : #3CC7D5;
+$info-text                    : #fff;
+
+
+
+
+// *** Gradient/Glossy amount
+
+$amount-gradient-top           : 50%;
+$amount-gradient-bottom        : 100%;
+$amount-glossy-top             : 50%;
+$amount-glossy-bottom          : 55%;
+
+
+
+
+// *** Gradient/Glossy lighten/darken amount
+
+$glossy-primary-lighten        : 10;
+$gradient-primary-lighten      : 10;
+$glossy-secondary-lighten      : 10;
+$gradient-secondary-lighten    : 10;
+$glossy-tertiary-lighten       : 5;
+$gradient-tertiary-lighten     : 5;
+$glossy-hover-lighten          : 5;
+$gradient-hover-lighten        : 5;
+$glossy-status-lighten         : 10;
+$gradient-status-lighten       : 10;
+$hover-status-darken           : 10;
+
+
+
+
+// *** Breakpoints for responsive
+
+$break-lg         :    1200px;
+$break-md         :    992px;
+$break-sm         :    768px;
+$break-xs         :    600px;
+$break-xxs        :    599px;
+$break-low-res-w  : 1366px;
+$break-low-res-h  : 768px;
+
