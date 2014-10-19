@@ -77,11 +77,12 @@ All you have to do is wrap your button in a `<p>` tag like this:
 ==========
 
 <h3>Aligning your buttons</h3>
-There might be times when you want to have a block-level button or have upto 3 buttons on one line, evenly spaced. The available classes for this are:<br>
+There might be times when you want to have a block-level button or have upto four buttons on one line, evenly spaced. The available classes for this are:<br>
 
 <code>.cta-block</code><br>
 <code>.cta-2</code><br>
-<code>.cta-3</code>
+<code>.cta-3</code><br>
+<code>.cta-4</code>
 
 To create buttons all on one row, evenly spaced, all you have to do is wrap your buttons in a `div` tag with the class `.cta-group`. An example of having two butttons on one row would look like this:<br>
 
@@ -92,7 +93,7 @@ To create buttons all on one row, evenly spaced, all you have to do is wrap your
   </div>
 ```
 
-If you wanted to have three buttons on one row evenly spaced, just follow the same code structure above, but add one more button and change `cta-2` to `cta-3` on all of the buttons.
+If you wanted to have three or four buttons on one row evenly spaced, just follow the same code structure above, adding the required number of buttons and using the required class, e.g. change `cta-2` to `cta-3` or `cta-4` on all of the buttons.
 
 Note that the block-level button `cta-block` does not have to be wrapped in div with the class `cta-group` - it can stand on its own like this:<br>
 
