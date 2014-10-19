@@ -167,10 +167,10 @@ Head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-t
 
 Status classes already come with their colours defined:<br>
 ```html
-danger = red<br>
-warning = amber<br>
-success = green<br>
-info = blue<br>
+danger = red
+warning = amber
+success = green
+info = blue
 disabled = grey
 ```
 
