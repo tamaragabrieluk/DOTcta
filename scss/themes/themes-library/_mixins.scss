@@ -1,0 +1,18 @@
+// =============================================================================
+
+                                    // # MIXINS
+
+// =============================================================================
+
+
+
+@mixin gradient ($color, $background1, $amount1, $background2, $amount2) {
+    color: $color;
+    background: $background1;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop($amount1,$background1), color-stop($amount2,$background2));
+    background: -webkit-linear-gradient(top, $background1 $amount1,$background2 $amount2);
+    background: -moz-linear-gradient(top, $background1 $amount1,$background2 $amount2);
+    background: -o-linear-gradient(top, $background1 $amount1,$background2 $amount2);
+    background: -ms-linear-gradient(top, $background1 $amount1,$background2 $amount2);
+    background: linear-gradient(to bottom, $background1 $amount1,$background2 $amount2);
+}
