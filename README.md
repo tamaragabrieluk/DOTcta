@@ -114,18 +114,12 @@ Creating a list of buttons simply requires the class `.cta-list` as a class attr
   </ul>
 ```
 
+
 ============
 
-<h3>Add colour to your buttons with priority colours</h3>
+<h3>Add colour to your buttons with priority classes</h3>
 
-When <a href="http://youtu.be/nQZpi3Izvns" target="_blank">using a theme</a>, you can set your buttons to override the default black and grey theme, and have whatever colours you want. There are two <a href="http://libs.doodleboxmedia.co.uk/dot/cta/cta-priorities/" target="_blank">priority</a> classes to use in this instance <code>.cta-prmary</code> and <code>.cta-secondary</code>. When using these classes you can mix and match any shape and style, all you have to do is add the priority classes to you buttons:
-
-```html
-  <button type="button" class="cta cta-md-curved cta-flat cta-primary">My button<button>
-  <button type="button" class="cta cta-md-curved cta-hollow cta-secondary">My button<button>
-```
-
-That's pretty much the basics of adding a button to your web page. Check out the website <a href="http://www.dotcta.com" target="_blank">dotcta.com</a> for more helpers and info on using DOTcta.
+The default theme for DOTcta is black, but if you want to add colour to your buttons, head over to the <a href="https://github.com/doodleboxmedia/DOTcta/tree/custom-themes">custom-themes branch</a> to download either the Sass files of the CSS file, and learn how easy it is to add colour.
 
 =======
 
